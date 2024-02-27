@@ -1,0 +1,60 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    padding:0px;
+    background-color: antiquewhite;
+}
+.div1{
+    position: absolute;
+    height:600px;
+    width:400px;
+    background-color: white;
+    top:100px;
+    left:400px;
+}
+.div2{
+    position: absolute;
+    height:600px;
+    width:400px;
+    background-color: rgb(124, 42, 56);
+    top:100px;
+    left:800px;
+}
+.div1 .div11{
+    padding-top: 100px;
+    font-size:34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div1 .div12 i{
+    padding:20px;
+    font-size: 24px;
+    padding-top: 50px;
+}
+.div1 .div13 input{
+    background-color: grey;
+    width:250px;
+    height:30px;
+    margin:10px;
+}
+.div1 .div15{
+    background-color: rgb(124, 42, 56);
+    width:150px;
+    height:40px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+.div1 .div13 input::placeholder{
+    color:black;
+}
+.div2 .div21{
+    padding-top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 42px;
+    color:white;
+}
+.div2 .div22{
+    color:white;
+}

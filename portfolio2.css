@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Protest+Riot&display=swap');
+
+
+html{
+  overflow-x: hidden;
+}
+body{
+  margin:0px;
+  padding:0px;
+  
+  font-family: 'Protest Riot', sans-serif;
+}
+.nav .secondnav  li a{
+  text-decoration: none;
+  color: white;
+}
+.nav .secondnav li{
+  list-style-type: none;
+  padding:50px
+}
+.nav .secondnav{
+  display: flex;
+  justify-content: center;
+}
+.nav{
+  display: flex;
+  justify-content:space-between;
+  background-image: url(https://t3.ftcdn.net/jpg/05/10/47/40/360_F_510474034_3JSCeIhkvBKQVLwT39Prq8KbPGFKnn4f.jpg);
+  align-items: center;}
+
+.nav .firstnav li{
+  list-style-type: none;
+  color: white;
+  font-size: larger;
+}
+.nav .secondnav .innernav a{
+  background-color: orange;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px black;
+
+}
+.hero{
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(https://t3.ftcdn.net/jpg/05/10/47/40/360_F_510474034_3JSCeIhkvBKQVLwT39Prq8KbPGFKnn4f.jpg);
+}
+.hero .hero2 img{
+  height:600px;
+}
+.hero .hero3 .hero31{
+  font-family: "Londrina Outline", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  color: white;
+  font-size: 100px;
+}
+.hero .hero3 .hero33{
+  font-family: "Londrina Outline", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  color: white;
+  font-size: 100px;
+}
+.hero .hero3 .hero34{
+  font-family: "Londrina Outline", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  color: white;
+  font-size: 100px;
+}
+.hero .hero3 .hero35{
+  font-family: "Londrina Outline", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  color: white;
+  font-size: 100px;
+}
+.nav2 .secondnav2  li a{
+  text-decoration: none;
+  color: black;
+}
+.nav2 .secondnav2 li{
+  list-style-type: none;
+  padding:50px
+}
+.nav2 .secondnav2{
+  display: flex;
+  justify-content: center;
+}
+.nav2{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color:antiquewhite;
+}
+
+.nav2 .firstnav2 li{
+  list-style-type: none;
+  color: black;
+  font-size: larger;
+}
+.nav2 .secondnav2 .innernav2 a{
+  background-color: orange;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px black;
+  }
+.hiro{
+  display: flex;
+  justify-content:space-evenly;
+  background-color:antiquewhite;
+}
+.hiro .hiro1{
+  padding-top: 100px;
+}
+#contact {
+  position:absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: orange;
+  top:520px;
+  left:1100px;
+  box-shadow: 10px 10px 30px black;
+}
+#contact ul{
+  list-style-type: none;
+  padding: 10px 20px 10px 20px;
+}
+#contact ul li a{
+  text-decoration: none;
+  color:black;
+}
+#intro{
+  position: absolute;
+  top:650px;
+  left:100px;
+}
+#ed2 {
+  display: flex;
+  color: white;
+}
+#ed3{
+  display: flex;
+  color: white;
+}
+#ed1{
+  padding:20px;
+  font-size: 42px;
+  color: orange;
+}
+#ed{
+  height:80vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-left: 100px;
+  background-image: url(https://t3.ftcdn.net/jpg/05/10/47/40/360_F_510474034_3JSCeIhkvBKQVLwT39Prq8KbPGFKnn4f.jpg);
+}
+#ed21{
+  font-family: 'Protest Strike', sans-serif;
+}
+.section{
+  padding-top: 100px;
+  padding-left: 500px;
+  height:60vh;
+  background-color: antiquewhite;
+}
+.section .section2{
+  display: flex;
+}
+.section .section2 div{
+  padding: 20px;
+  font-size: 24px;
+}
+.section .section4 i{
+ padding:20px;
+ font-size: 32px;
+}
+.section .section5{
+  display: flex;
+}
+.section .section5 div{
+  padding: 10px;
+}
+#exp{
+  position: absolute;
+  padding-top: 2000px;
+  padding-left: 100px;
+}
+#exp div{
+  padding: 20px 40px 20px 40px;
+  background-color: orange;
+}
+.scroll{
+  position: absolute;
+  top:700px;
+  left:700px;
+  background-color: orange;
+  padding:50px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 30px black;
+  
+}
+.dob{
+  position: absolute;
+  top:1100px;
+  left:800px;
+  background-color: orange;
+  padding:20px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 30px black;
+}
+.place{
+  position: absolute;
+  top:1300px;
+  left:1200px;
+  background-color: orange;
+  padding:20px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 30px black;
+}
+.resume{
+  position: absolute;
+  top:1350px;
+  left:900px;
+  font-family: "Londrina Outline", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  z-index:0;
+}
+#clip{
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  height:30px;
+  width:30px;
+  background-color: orange;
+  position: absolute;
+  left:10px;
+  top:60px;
+}
+#clip2{
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  height:30px;
+  width:30px;
+  background-color: orange;
+  position: absolute;
+  left:10px;
+  top:810px;
+}
+*::selection{
+  background-color: blue;
+  color:white;
+}
+.hero .hero3:hover{
+    scale:0.5;
+    transition: scale 2s;
+}
+#intro #intro1{
+  font-size: 18px;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#intro #intro2{
+  font-size: 18px;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.resume:hover{
+  scale: 0.5;
+  transition: scale 2s;
+}
+.scroll:hover{
+  background-color: black;
+  color:white;
+  transition: all 2s;
+}
+.dob:hover{
+  background-color: black;
+  color:white;
+  transition: all 2s;
+}
+.place:hover{
+  background-color: black;
+  color:white;
+  transition: all 2s;
+}
+.section .section4 i:hover{
+  scale:2;
+  transition: scale 1s;
+}

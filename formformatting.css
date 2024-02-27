@@ -1,0 +1,71 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    padding:0px;
+    background-color: antiquewhite;
+}
+.form{
+    display:flex;
+    justify-content:space-evenly;
+    margin:0px;
+}
+.form .form1{
+    background-color: white;
+    height:500px;
+    width:400px;
+    position: absolute;
+    left:400px;
+    top:100px;
+}
+.form .form2{
+    background-color: rgb(136, 49, 64);
+    height:500px;
+    width:400px;
+    position: absolute;
+    right:350px;
+    top:100px;
+}
+.form .form1 .form11{
+    padding-top: 100px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form .form1 .form12 i{
+    font-size: 24px;
+    padding:20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form .form2 .form21{
+    padding-top: 150px;
+}
+.form .form1 .form13 input{
+    background-color: rgba(128, 128, 128, 0.767);
+    margin:10px;
+    height:30px;
+    width:200px;
+}
+.form .form1 .form13 input::placeholder{
+    color:black;
+}
+.form .form1 .form14 {
+    padding:20px;
+}
+.form .form1 .form15{
+    background-color: rgb(136, 49, 64);
+    border-radius: 20px;
+    color:white;
+    width:100px;
+    height:40px;
+}
+.form .form2 .form21{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    font-size: 34px;
+}
+.form .form2 .form22{
+    color:white;
+}

@@ -1,0 +1,31 @@
+html{
+ overflow-x:hidden;
+}
+body{
+ margin:0px;
+ padding:0px;
+}
+ul li a{
+text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+ul{
+display:flex;
+justify-content: center;
+}
+table{
+    display: flex;
+    justify-content:center;
+}
+table tr td a{
+text-decoration: none;
+}
+table tr td{
+    padding: 50px
+}
+

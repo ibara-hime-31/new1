@@ -1,0 +1,18 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&family=Sixtyfour&display=swap');
+
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+*{
+    font-family: 'Rubik Glitch Pop', system-ui;
+
+}
+div{
+    color: brown;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Sixtyfour', sans-serif;
+}
+p{
+    color:pink;
+}

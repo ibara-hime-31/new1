@@ -1,0 +1,68 @@
+
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(https://img.freepik.com/free-photo/blue-designed-grunge-concrete-texture-vintage-background-with-space-text-image_1258-108928.jpg);
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav .starnav{
+    list-style-type: none;
+}
+.nav .midnav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav .midnav li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.nav .endnav{
+    list-style-type: none;
+}
+.nav .endnav li a{
+    text-decoration: none;
+    color: white;
+    border:2px solid white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(https://img.freepik.com/free-photo/blue-designed-grunge-concrete-texture-vintage-background-with-space-text-image_1258-108928.jpg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero .hero1{
+    color: white;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.hero .hero1 .hero16{
+    padding-top: 50px;
+}
+.hero .hero1 .hero16 i{
+    font-size: larger;
+    border:2px solid white;
+    border-radius: 50%;
+    margin:20px;
+    padding: 20px;
+}
+.extra{
+    position: absolute;
+    top:100px;
+    left:600px;
+    font-size: 700px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

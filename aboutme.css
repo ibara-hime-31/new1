@@ -1,0 +1,21 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.nav{
+    display: flex;
+    justify-content:space-evenly;
+}
+.nav .secondnav{
+    display:flex;
+    justify-content: center;
+}
+.nav .secondnav li a{
+    text-decoration: none;
+}
+.nav .secondnav li{
+    list-style-type: none;
+}

@@ -1,0 +1,123 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Protest+Strike&display=swap');
+
+
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    padding:0px;
+    
+    font-family: 'Protest Riot', sans-serif;
+}
+.nav .secondnav  li a{
+    text-decoration: none;
+    color: white;
+}
+.nav .secondnav li{
+    list-style-type: none;
+    padding:50px
+}
+.nav .secondnav{
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    background-image: url(https://t3.ftcdn.net/jpg/05/10/47/40/360_F_510474034_3JSCeIhkvBKQVLwT39Prq8KbPGFKnn4f.jpg);
+    align-items: center;}
+
+.nav .firstnav li{
+    list-style-type: none;
+    color: white;
+    font-size: larger;
+}
+.nav .secondnav .innernav a{
+    background-color: orange;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    border-radius: 20px;
+    
+
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(https://t3.ftcdn.net/jpg/05/10/47/40/360_F_510474034_3JSCeIhkvBKQVLwT39Prq8KbPGFKnn4f.jpg);
+}
+.hero .hero1{
+    padding-top: 500px;
+}
+.hero .hero2 img{
+    height:600px;
+}
+.hero .hero3 .hero31{
+    font-family: 'Protest Strike', sans-serif;
+    color: white;
+    font-size: 100px;
+}
+.hero .hero3 .hero33{
+    font-family: 'Protest Strike', sans-serif;
+    color: white;
+    font-size: 100px;
+}
+.hero .hero3 .hero34{
+    font-family: 'Protest Strike', sans-serif;
+    color: white;
+    font-size: 100px;
+}
+.hero .hero3 .hero32{
+    padding-top: 50px;
+    width: 300px;
+    padding-left: 200px;
+}
+.hero .hero3 .hero32 ul{
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    background-color: orange;
+    padding:10px 20px 10px 20px;
+}
+.nav2 .secondnav2  li a{
+    text-decoration: none;
+    color: black;
+}
+.nav2 .secondnav2 li{
+    list-style-type: none;
+    padding:50px
+}
+.nav2 .secondnav2{
+    display: flex;
+    justify-content: center;
+}
+.nav2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:antiquewhite;
+}
+
+.nav2 .firstnav2 li{
+    list-style-type: none;
+    color: black;
+    font-size: larger;
+}
+.nav2 .secondnav2 .innernav2 a{
+    background-color: orange;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    border-radius: 20px;
+    }
+.hiro{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+.hiro .hiro1{
+    padding-top: 100px;
+}
